@@ -10,7 +10,7 @@ socket.on('connect', function () {
 
     socket.emit('createMessage',{
         to:"sathish@chat.com",
-        text:"Hello sathish, u around ? wanna chat?"
+        text:"Hello sathish, u around?"
     })
 
 
