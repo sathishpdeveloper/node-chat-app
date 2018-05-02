@@ -35,6 +35,8 @@ io.on('connection',(socket)=>{
     //     })
     // });
 
+    // lets try if proxy works now
+
     socket.on('disconnect', () => {
         console.log('User disconnected');
     })
